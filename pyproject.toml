@@ -1,6 +1,6 @@
 [build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
 
 [project]
 name = "picAI"
@@ -20,3 +20,6 @@ classifiers = [
 [project.urls]
 Homepage = "https://github.com/osintguy/AI_Location_Finder/"
 Issues = "https://github.com/osintguy/AI_Location_Finder/issues"
+
+[project.scripts]
+picai = "picAI.picAI"

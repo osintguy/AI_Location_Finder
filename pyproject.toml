@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "picAI"
+version = "1.0"
+authors = [
+  { name="Hayden", email="haydencotton@protonmail.com" },
+]
+description = "A simple wrapper for Picarta AI's geolocation tool"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/osintguy/AI_Location_Finder/"
+Issues = "https://github.com/osintguy/AI_Location_Finder/issues"

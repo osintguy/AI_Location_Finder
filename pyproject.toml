@@ -22,4 +22,4 @@ Homepage = "https://github.com/osintguy/AI_Location_Finder/"
 Issues = "https://github.com/osintguy/AI_Location_Finder/issues"
 
 [project.scripts]
-picai = "picAI.picAI"
+picai = "picAI.picAI:main"

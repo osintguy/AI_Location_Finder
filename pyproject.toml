@@ -11,6 +11,7 @@ authors = [
 description = "A simple wrapper for Picarta AI's geolocation tool"
 readme = "README.md"
 requires-python = ">=3.8"
+dependencies = ["requests"]
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",

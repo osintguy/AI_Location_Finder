@@ -5,7 +5,7 @@ import argparse
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("filepath")
+    parser.add_argument("path_to_image")
     args = parser.parse_args()
     
     

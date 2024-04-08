@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "picAI"
 version = "1.0"
 authors = [
-  { name="Hayden", email="haydencotton@protonmail.com" },
+  { name="Hayden", email="hc-github@protonmail.com" },
 ]
 description = "A simple wrapper for Picarta AI's geolocation tool"
 readme = "README.md"
@@ -19,8 +19,8 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/osintguy/AI_Location_Finder/"
-Issues = "https://github.com/osintguy/AI_Location_Finder/issues"
+Homepage = "https://github.com/osintguy/PicAI/"
+Issues = "https://github.com/osintguy/PicAI/issues"
 
 [project.scripts]
 picai = "picAI.picAI:main"

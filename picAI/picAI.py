@@ -14,7 +14,7 @@ def main():
     headers = {"Content-Type": "application/json"}
     
     # Read the image from a local file, comment out the next two lines if you read from URL 
-    with open(args.filepath, "rb") as image_file:
+    with open(args.path_to_image, "rb") as image_file:
         img_path = base64.b64encode(image_file.read()).decode('utf-8')
     
     # OR  
